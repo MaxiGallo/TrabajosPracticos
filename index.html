@@ -4,149 +4,206 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Mi primer sitio web</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600italic,300italic' rel='stylesheet' type='text/css'>		
 	</head>
+
 	<body>
 
-		<header>
-			<img src="imagenes/logo.png">
-			<nav>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
+		<header class="header">
+			
+			<nav class="navHeader">
+				<div class="contenedorNavHeader">
+					<img class="imgLogo" src="imagenes/header-logo.png">
+					<ul class="ulHeader">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
+
+			<section class="sectionHeader">
+				<div class="divHeader">
+					<h1>
+						Regular Updates
+					</h1>
+
+					<p>
+						Curabitur ultricies elementum mauris eu dapibus dui aliquet mauris euismod neque a molestie
+					</p>
+				</div>					
+			</section>			
+
+			<section class="sectionCar">
+				<div class="divBuscador">
+					<input class="inputDomain" type="text" name="domain" placeholder="Enter your domain name and hit enter">
+					
+					<input class="submitSearch" type="submit" name="search" value="search">
+				</div>	
+
+				<div class="divSectionCar">
+					<article class="articleCar articleSpeed">
+						<img src="imagenes/wid1.png">
+						<h1>Speed Servers</h1>
+						<p>A paragraph of text with an A second row of text with a</p>
+					</article>
+					<article class="articleCar articleHostro">
+						<img src="imagenes/wid2.png">
+						<h1>Hostro Services</h1>
+						<p>A paragraph of text with an A second row</p>
+					</article>
+					<article class="articleCar articleLive">
+						<img src="imagenes/wid3.png">
+						<h1>Live Support</h1>
+						<p>A paragraph of text with an A second row</p>
+					</article>
+					<article class="articleCar articleDomain">
+						<img src="imagenes/wid4.png">
+						<h1>Get Domain Name</h1>
+						<p>A paragraph of text with an A second row</p>
+					</article>
+				</div>
+			</section>
+
 		</header>
 
-		<section>
-			<input type="text" name="domain" placeholder="Enter your domain name and hit enter">
-			<input type="submit" value="search">
-			<article>
-				<img src="imagenes/">
-				<h1>Some text</h1>
-				<p>A paragraph of text with an</p>
-				<p>A second row of text with a</p>
-			</article>
-			<article>
-				<img src="imagenes/">
-				<h1>Some text</h1>
-				<p>A paragraph of text with an</p>
-				<p>A second row of text with a</p>
-			</article>
-			<article>
-				<img src="imagenes/">
-				<h1>Some text</h1>
-				<p>A paragraph of text with an</p>
-				<p>A second row of text with a</p>
-			</article>
-			<article>
-				<img src="imagenes/">
-				<h1>Some text</h1>
-				<p>A paragraph of text with an</p>
-				<p>A second row of text with a</p>
-			</article>
+		<section class="sectionServices">
+			<div class="divServices">
+				<div class="divImgThreedot">
+					<img class="imgThreedot" src="imagenes/threedot.png" alt="Three Dot">
+				</div>
+				<h1>
+					Hostro Services
+				</h1>
+				<p>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</p>
+				
+				<div class="divArticlesDerecha">
+					<article class="articlePhone articleRetina">
+						<h1>Some text</h1>
+						<img src="imagenes/ser1.png">
+						<p>Text</p>
+					</article>
+					
+					<article class="articlePhone articleEasy">
+						<h1>Some text</h1>
+						<img src="imagenes/ser2.png">
+						<p>Text</p>						
+					</article>
+					
+					<article class="articlePhone articlePixel">
+						<h1>Some text</h1>
+						<img src="imagenes/ser3.png">
+						<p>Text</p>
+					</article>
+				</div>
+				
+				<div class="divImagenServices">
+					<img class="imgPhone" src="imagenes/iphone2.png">
+				</div>
+
+				<div class="divArticlesIzquierda">
+					<article class="articlePhone articleUnl">
+						<h1>Some text</h1>
+						<img src="imagenes/ser4.png">
+						<p>Text</p>
+					</article>		
+					
+					<article class="articlePhone articleFeatures">
+						<h1>Some text</h1>
+						<img src="imagenes/ser5.png">
+						<p>Text</p>
+					</article>		
+					
+					<article class="articlePhone articleSupport">
+						<h1>Some text</h1>
+						<img src="imagenes/ser6.png">
+						<p>Text</p>
+					</article>
+				</div>
+			</div>										
 		</section>
 
-		<section>
-			<h1>
-				A subtitle
-			</h1>
-			<p>Some text</p>
-			<div>
-				<img src="imagenes/cell_phone.png">
+		<section class="sectionPricing">
+			<div class="divImgThreedot">
+				<img class="imgThreedot" src="imagenes/threedot.png" alt="Three Dot">
 			</div>
-			<article>
-				<img src="">
-				<h1>Some text</h1>
-				<p>Text</p>
-			</article>
-			<article>
-				<img src="">
-				<h1>Some text</h1>
-				<p>Text</p>
-			</article>
-			<article>
-				<img src="">
-				<h1>Some text</h1>
-				<p>Text</p>
-			</article>
-			<article>
-				<img src="">
-				<h1>Some text</h1>
-				<p>Text</p>
-			</article>		
-			<article>
-				<img src="">
-				<h1>Some text</h1>
-				<p>Text</p>
-			</article>		
-			<article>
-				<img src="">
-				<h1>Some text</h1>
-				<p>Text</p>
-			</article>																		
-		</section>
 
-		<section>
 			<h1>
-				A subtitle
+				Pricing Tables
 			</h1>
-			<p>Some text</p>
-			<article>
-				<h1>Some text</h1>
-				<h2>$95</h2>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<input type="submit" value="button1">
-			</article>
-			<article>
-				<h1>Some text</h1>
-				<h2>$95</h2>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<input type="submit" value="button1">
-			</article>
-			<article>
-				<h1>Some text</h1>
-				<h2>$95</h2>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<input type="submit" value="button1">
-			</article>
-			<article>
-				<h1>Some text</h1>
-				<h2>$95</h2>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<p>Some text</p>
-				<input type="submit" value="button1">
-			</article>									
+
+			<p>
+				Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus
+			</p>
+			
+			<div class="divPricing">
+				<article class="articlePricing articleSmall">
+					<h1>Small Package</h1>
+					<h2>$15.99</h2>
+					<p>Hard drive, GB</p>
+					<p>Transfer, GB</p>
+					<p>Data bases</p>
+					<p>Dash board</p>
+					<input class="submitPlan" type="submit" value="Select Plan">
+				</article>
+
+				<article class="articlePricing articleNormal">
+					<h1>Some text</h1>
+					<h2>$49.99</h2>
+					<p>Hard drive, GB</p>
+					<p>Transfer, GB</p>
+					<p>Data bases</p>
+					<p>Dash board</p>
+					<input class="submitPlan" type="submit" value="Select Plan">
+				</article>
+
+				<article class="articlePricing articleBig">
+					<h1>Some text</h1>
+					<h2>$99.99</h2>
+					<p>Hard drive, GB</p>
+					<p>Transfer, GB</p>
+					<p>Data bases</p>
+					<p>Dash board</p>
+					<input class="submitPlan" type="submit" value="Select Plan">
+				</article>
+
+				<article class="articlePricing articleBest">
+					<h1>Some text</h1>
+					<h2>$199.99</h2>
+					<p>Hard drive, GB</p>
+					<p>Transfer, GB</p>
+					<p>Data bases</p>
+					<p>Dash board</p>
+					<input class="submitPlan" type="submit" value="Select Plan">
+				</article>	
+			</div>								
 		</section>
 		
-		<section>
-			<h1>Hosting use 500,000 happy customers. Want to see services?</h1>
-		</section>
-
-		<footer>
-			<h1>
-				Some text
-			</h1>
-			<nav>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>				
-			</nav>
+		<footer class="footer">
+				<h1>
+					Hosting use 500,000 happy customers. Want to see services?
+				</h1>
+				
+				<nav class="navFooter">
+					<div class="divFooter">
+						<p class="pCopyright">© 2015 Hostro. All right reserved.</p>
+						<ul class="ulFooter">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>				
+						</ul>
+					</div>
+				</nav>
 		</footer>
 
 	</body>

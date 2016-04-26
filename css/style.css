@@ -1,0 +1,303 @@
+body{
+	font-family: 'montserrat',sans-serif; color:white;
+}
+
+
+.navHeader{
+	overflow: hidden;
+}
+
+.contenedorNavHeader{
+	max-width: 800px;
+	margin: auto;
+	padding: 35px;
+}
+
+.imgLogo{
+	display: inline-block;
+}
+
+.ulHeader{
+	float: right;
+}
+
+.ulHeader li{
+	display: inline-block;
+	list-style: none;
+	text-transform: uppercase;
+	margin-left: 20px;
+	font-size: 10px;	
+}
+
+.ulHeader li a{
+	text-decoration: none;
+	color: grey;
+}
+
+.sectionHeader{
+	background-image: url("../imagenes/indexbanner-bg3.jpg");
+	background-size: 100% 100%;
+	height: 500px;
+}
+
+.divHeader{
+	max-width: 700px;
+	margin: auto;
+	padding: 12% 0 0 0;
+}
+
+.sectionHeader h1{
+	font-size: 30px;
+	padding: 0 0 30px 0;
+	font-weight: normal;
+}
+
+.sectionHeader p{
+	font-family: 'open sans',sans-serif; color:white;
+	font-size: 12px;
+	width: 50%;
+	line-height: 200%;
+	font-weight: lighter;
+}
+
+.divBuscador{
+	max-width: 800px;
+	margin: auto;
+	margin-top: -30px;
+}
+
+.inputDomain{
+	width: 80%;
+	padding: 20px;
+	border-width: 0;
+    box-shadow: 4px 4px 4px grey;
+    	
+}
+
+.submitSearch{
+	background: #00B7FF;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 19px;
+    position: absolute;
+    border: 0px;
+    text-align: center;
+}
+
+.sectionCar{
+	max-width: 100%;
+	margin: auto;
+	font-family: 'open sans',sans-serif; color:white;
+	padding: 0 0 40px 0;
+}
+
+.divSectionCar{
+	max-width: 1071px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	color: black;
+	 align-items: center;
+  	justify-content: center;
+  	padding: 100px 0 0 0;
+}
+
+.articleCar{
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+
+.articleCar img{
+	width: 60px;
+	height: 60px;
+} 
+
+.articleCar h1{
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 10px 0 0 0;
+}
+
+.articleCar p{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 8px;
+	display: inline-block;
+	color: grey;
+}
+
+.sectionServices{
+	color: black;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.divServices{
+	max-width: 800px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.divArticlesIzquierda, .divImagenServices, .divArticlesDerecha{
+	float: left;
+	width: 33%;
+	font-size: 8px;
+}
+
+.divServices h1{ 
+	text-align: center;
+	font-size: 30px;
+	padding: 0 0 25px 0;
+}
+
+
+.divServices p{ 
+	text-align: center;
+	font-size: 12px;
+	font-weight: lighter;
+	padding: 0 0 30px 0;
+	color: grey;
+}
+
+.articlePhone h1{
+	font-size: 8px;
+}
+
+.articlePhone p{
+	font-size: 8px;
+}
+
+
+.divImgThreedot{
+	max-width: 6px;
+	margin: auto;
+	padding: 30px 0 30px 0;
+}
+
+.imgPhone{
+	width: 200px;
+}
+
+
+.sectionPricing{
+	background-image: url("../imagenes/pricing-bg.jpg");
+	background-size: 100% 50%;
+	background-repeat: no-repeat;
+}
+
+.divPricing{
+	max-width: 800px;
+	margin: auto;
+	overflow: auto;
+	padding: 0 0 50px 0;
+}
+
+.articlePricing{
+	box-sizing: border-box;
+    width: 180px;
+    height: 300px;
+    box-shadow: 4px 4px 4px grey;
+    border: 1px solid rgba(123, 123, 123, 0.19);
+    margin-left: 12px;
+    padding: 60px 0 280px;
+    float: left;
+    background: white;
+}
+
+.sectionPricing h1{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 0 20px 0;
+}
+
+.sectionPricing p{
+	color: grey;
+	text-align: center;
+	font-size: 10px;
+	padding: 0 0 80px 0;
+}
+
+.submitPlan{
+	color:white;
+	text-transform: uppercase;
+	font-size: 10px;
+	border:none;
+	border-radius: 5px;
+	padding:10px 30px;
+	background: #51C8F6;
+	border:1px solid white;	
+	display: block;
+	margin: auto;
+}
+
+.articlePricing h1{
+	text-align: center;
+	padding: 0 0 15px 0;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.articlePricing h2{
+	text-align: center;
+	padding: 0px;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 0 20px 0;
+}
+
+.articlePricing p{
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.divFooter{
+	max-width: 800px;
+	margin: auto;
+}
+
+.footer h1{
+	font-family: 'open sans',sans-serif; color:white;
+	color: white;
+	text-align: center;
+	background: #142E3F;
+	font-weight: lighter;
+	padding: 60px 0 60px 0;
+	font-size: 22px;
+}
+
+.navFooter{
+	background: #091722;
+	overflow: auto;
+	padding: 30px;
+}
+
+.ulFooter{
+	float: right;
+}
+
+.ulFooter li{
+	display: inline-block;
+	list-style: none;
+	text-transform: uppercase;
+	margin-left: 20px;
+	font-size: 10px;
+	font-family: 'open sans',sans-serif; color:white;
+}
+
+.ulFooter li a{
+	text-decoration: none;
+	color: white;
+}
+
+.divFooter p{
+	display: inline-block;
+	font-family: 'open sans',sans-serif; color:white;
+	font-size: 10px;
+}
